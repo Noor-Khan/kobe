@@ -1,9 +1,17 @@
+h2,
+h3,
+h4 {
+    font-family: 'Fjalla One';
+    color: #2F2F2F;
+    letter-spacing: 2px;
+}
+
 h2 {
-    font-size: 60px;
+    font-size: 82px;
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 60px;
     line-height: 48px;
 }
 
@@ -13,9 +21,16 @@ h4 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
 }
 
 a {
     color: $color-primary;
+    text-decoration: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
