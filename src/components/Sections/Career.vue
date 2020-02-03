@@ -18,10 +18,9 @@
             </div>
             <div class="main-para">
               <p>
-                Kobe Bryant was an American professional basketball player.A shooting guard, Bryant entered the
-                <a
-                  href="#"
-                >National Basketball Association</a>
+                Bryant entered the
+                <a href="#">National Basketball Association</a>
+ directly from high school, and played his entire 20-season professional career in the league with the Los Angeles Lakers.
               </p>
             </div>
           </div>

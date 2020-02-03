@@ -15,12 +15,7 @@
                 <h3>Awards and Honors</h3>
               </div>
               <div class="main-para">
-                <p>
-                  Kobe Bryant was an American professional basketball player.A shooting guard, Bryant entered the
-                  <a
-                    href="#"
-                  >National Basketball Association</a>
-                </p>
+                <p>Kobe Bryant has a long and impressive list of career accolades and accomplishments.</p>
               </div>
             </div>
           </div>
@@ -95,14 +90,8 @@ export default {};
   }
   .awards-img {
     position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      height: 5px;
-      width: 450px;
-      background-color: #efefef;
-      bottom: 2px;
-      left: 20%;
+    img {
+      border-bottom: 5px solid #efefef;
     }
   }
 }

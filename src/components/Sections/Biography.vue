@@ -50,14 +50,8 @@ export default {};
   padding: 50px 0;
   .kobe-img {
     position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      height: 5px;
-      width: 450px;
-      background-color: #efefef;
-      bottom: 2px;
-      left: 20%;
+    img {
+      border-bottom: 5px solid #efefef;
     }
   }
 }

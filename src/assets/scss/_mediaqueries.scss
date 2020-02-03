@@ -8,7 +8,11 @@
   // }
 }
 
-@media(min-width: 1920px) {
+@media(min-width: 1904px) {
+  .container {
+    max-width: 1400px;
+  }
+
   .fade-heading {
     left: -4rem !important;
   }
@@ -16,8 +20,8 @@
   #intro {
     .intro-right {
       .vertical-info {
-        left: -25% !important;
-        margin-top: 35px;
+        left: -32% !important;
+        margin-top: 4px;
       }
     }
   }
@@ -49,6 +53,41 @@
         width: 500px !important;
         left: 15% !important;
       }
+    }
+  }
+}
+
+@media(max-width: 959px) {
+  #header {
+    .v-toolbar {
+      .v-toolbar__content {
+        padding: 8px 0 !important;
+      }
+    }
+  }
+}
+
+
+@media(max-width: 1330px) {
+  .fade-heading {
+    left: 0 !important;
+  }
+
+  .vertical-info {
+    left: -35% !important;
+  }
+
+}
+
+@media(max-width: 1263px) {
+  .vertical-info {
+    left: -50% !important;
+    top: 55%;
+  }
+
+  #career {
+    .career-table {
+      margin-top: 0 !important;
     }
   }
 }

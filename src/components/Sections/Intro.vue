@@ -2,7 +2,7 @@
   <section id="intro" class="pt-12">
     <v-container>
       <v-row>
-        <v-col cols="12" md="5" class="text-left">
+        <v-col cols="12" md="5" sm="8" class="text-left">
           <div class="intro-right">
             <div class="fade-heading text-uppercase">
               <h2>bryant 24</h2>
@@ -47,7 +47,7 @@ export default {};
     color: #fff;
     .fade-heading {
       position: relative;
-      left: -8rem;
+      left: -15%;
       h2 {
         color: #2d2d2d;
       }
@@ -65,7 +65,7 @@ export default {};
     }
     .vertical-info {
       position: absolute;
-      left: -50%;
+      left: -40%;
       transform: rotate(-90deg);
       &:before {
         content: "";

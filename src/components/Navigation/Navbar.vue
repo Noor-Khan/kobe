@@ -34,28 +34,28 @@
             <v-list-item class="nav-item">
               <v-list-item-content>
                 <v-list-item-title>
-                  <a href="#">Biography</a>
+                  <a href="#biography">Biography</a>
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-list-item class="nav-item">
               <v-list-item-content>
                 <v-list-item-title>
-                  <a href="#">Career</a>
+                  <a href="#career">Career</a>
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-list-item class="nav-item">
               <v-list-item-content>
                 <v-list-item-title>
-                  <a href="#">Achievements</a>
+                  <a href="#achievements">Achievements</a>
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-list-item class="nav-item">
               <v-list-item-content>
                 <v-list-item-title>
-                  <a href="#">Gallery</a>
+                  <a href="#gallery">Gallery</a>
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
