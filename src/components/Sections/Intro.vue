@@ -12,9 +12,10 @@
             </div>
             <div class="main-heading text-uppercase">
               <h3>
-                Kobe been
+                Kobe bean
                 <div style="color:#F2B923; display: inline-block">bryant</div>
               </h3>
+              <p>August 23, 1978 – January 26, 2020</p>
             </div>
             <div class="main-para pr-8">
               <p>“ When I play, I compete, and if you're too busy acting cool for the fans or celebrities courtside then I will demolish you in front of them.”</p>

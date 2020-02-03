@@ -27,9 +27,11 @@
   </section>
 </template>
 <script>
-// import VueWMasonryGallery from "vue-masonry-gallery/static";
+// import VueWMasonryGallery from "vue-masonry-gallery/src/components/VueMasonryGallery.vue";
 export default {
-  components: {},
+  components: {
+    // VueWMasonryGallery
+  },
   data() {
     return {
       imgArr: [
