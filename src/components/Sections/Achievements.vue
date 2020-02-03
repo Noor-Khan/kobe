@@ -99,10 +99,10 @@ export default {};
       content: "";
       position: absolute;
       height: 5px;
-      width: 400px;
+      width: 450px;
       background-color: #efefef;
       bottom: 2px;
-      left: 8rem;
+      left: 20%;
     }
   }
 }

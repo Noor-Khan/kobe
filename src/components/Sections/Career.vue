@@ -262,13 +262,16 @@ export default {
   }
   .career-table {
     position: relative;
-    margin-top: -13rem;
+    margin-top: -20%;
   }
   .theme--light {
     .v-data-table-header {
       background-color: rgba(242, 185, 35, 0.7);
       text-transform: uppercase;
       font-weight: 800;
+    }
+    .v-data-footer {
+      display: none;
     }
     &.v-data-table {
       background-color: #ffffffde;

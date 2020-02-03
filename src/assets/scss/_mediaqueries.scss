@@ -1,11 +1,11 @@
 @media(min-width: 1601px) {
-  #intro {
-    .intro-right {
-      .vertical-info {
-        left: 3rem !important;
-      }
-    }
-  }
+  // #intro {
+  //   .intro-right {
+  //     .vertical-info {
+  //       left: 3rem !important;
+  //     }
+  //   }
+  // }
 }
 
 @media(min-width: 1920px) {
@@ -16,8 +16,38 @@
   #intro {
     .intro-right {
       .vertical-info {
-        left: -4.5rem !important;
+        left: -25% !important;
         margin-top: 35px;
+      }
+    }
+  }
+
+  #header {
+    .v-toolbar {
+      .v-toolbar__content {
+        padding: 8px 60px !important;
+      }
+
+    }
+
+  }
+
+  #biography {
+    .kobe-img {
+      &::after {
+        left: 35% !important;
+        width: 500px !important;
+      }
+    }
+  }
+
+  #achievements {
+    .awards-img {
+      text-align: center;
+
+      &::after {
+        width: 500px !important;
+        left: 15% !important;
       }
     }
   }

@@ -42,6 +42,7 @@ export default {};
   background-size: 65%;
   height: 90vh;
   .intro-right {
+    position: relative;
     padding-top: 3rem;
     color: #fff;
     .fade-heading {
@@ -64,7 +65,7 @@ export default {};
     }
     .vertical-info {
       position: absolute;
-      left: -2rem;
+      left: -50%;
       transform: rotate(-90deg);
       &:before {
         content: "";
