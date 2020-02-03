@@ -29,7 +29,7 @@
       </v-row>
       <v-row>
         <v-col cols="12" md="6">
-          <div class="awards">
+          <div class="awards text-left">
             <ul>
               <li>
                 <v-icon>mdi-trophy</v-icon>Five Championships
@@ -76,7 +76,7 @@ export default {};
         line-height: 100px;
         border-bottom: 4px solid #fff;
         font-size: 22px;
-        padding-left: 2rem;
+        padding-left: 3rem;
         color: #fff;
         .v-icon {
           font-size: 30px;
