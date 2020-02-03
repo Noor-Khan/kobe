@@ -63,6 +63,13 @@ export default {};
 </script>
 <style lang="scss" scoped>
 #achievements {
+  .achievements-left {
+    .horizontal-info {
+      &::after {
+        left: 14rem;
+      }
+    }
+  }
   padding: 50px 0;
   .awards {
     background-image: url("../../assets/images/awards.jpg");
