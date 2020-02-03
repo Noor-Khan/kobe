@@ -1,0 +1,24 @@
+@media(min-width: 1601px) {
+  #intro {
+    .intro-right {
+      .vertical-info {
+        left: 3rem !important;
+      }
+    }
+  }
+}
+
+@media(min-width: 1920px) {
+  .fade-heading {
+    left: -4rem !important;
+  }
+
+  #intro {
+    .intro-right {
+      .vertical-info {
+        left: -4rem !important;
+        margin-top: 35px;
+      }
+    }
+  }
+}

@@ -7950,6 +7950,11 @@ vue-loader@^15.7.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-masonry-gallery@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/vue-masonry-gallery/-/vue-masonry-gallery-1.1.1.tgz#39bb69212e697995cf378291238e55334e9932f4"
+  integrity sha512-XwszmFZQ5a1j9i/7yuxgO0rf/l55V/DI9V19aO0bAjOMV3KBGwfYkm5PP6AGYNNio8Q+ZswXE6lYXM+gKNNlYQ==
+
 vue-router@^3.1.5:
   version "3.1.5"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-3.1.5.tgz#ff29b8a1e1306c526b52d4dc0532109f16c41231"

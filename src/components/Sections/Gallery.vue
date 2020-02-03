@@ -16,11 +16,33 @@
           </div>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col cols="12" md="12">
+          <div class="gallery-masonry">
+            <!-- <vue-masonry-gallery :imgsArr="imgsArr" @scrollReachBottom="getData" @click="clickFn"></vue-masonry-gallery> -->
+          </div>
+        </v-col>
+      </v-row>
     </v-container>
   </section>
 </template>
 <script>
-export default {};
+// import VueWMasonryGallery from "vue-masonry-gallery/static";
+export default {
+  components: {},
+  data() {
+    return {
+      imgArr: [
+        {
+          src: "../../assets/images/d.png"
+        },
+        {
+          src: "../../assets/images/kobe.png"
+        }
+      ]
+    };
+  }
+};
 </script>
 <style lang="scss" scoped>
 #gallery {

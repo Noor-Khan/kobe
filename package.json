@@ -12,6 +12,7 @@
     "core-js": "^3.4.4",
     "hooper": "^0.3.4",
     "vue": "^2.6.10",
+    "vue-masonry-gallery": "^1.1.1",
     "vue-router": "^3.1.5",
     "vuelidate": "^0.7.5",
     "vuetify": "^2.1.0"

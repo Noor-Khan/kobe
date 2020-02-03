@@ -60,8 +60,5 @@ export default {};
       left: 8rem;
     }
   }
-  .biography-left {
-    position: relative;
-  }
 }
 </style>
