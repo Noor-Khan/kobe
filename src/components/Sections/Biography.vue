@@ -26,7 +26,8 @@
             </div>
             <div class="learn-more-btn">
               <v-btn text medium color="primary">
-                <v-icon color="primary">mdi-plus</v-icon>Learn more
+                Learn more
+                <v-icon color="primary">mdi-plus</v-icon>
               </v-btn>
             </div>
           </div>
@@ -47,18 +48,20 @@ export default {};
 #biography {
   position: relative;
   padding: 50px 0;
+  .kobe-img {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      height: 5px;
+      width: 400px;
+      background-color: #efefef;
+      bottom: 2px;
+      left: 8rem;
+    }
+  }
   .biography-left {
     position: relative;
-    .kobe-img {
-      position: relative;
-      &::after {
-        content: "";
-        position: absolute;
-        height: 2px;
-        width: 300px;
-        background-size: #efefef;
-      }
-    }
   }
 }
 </style>
