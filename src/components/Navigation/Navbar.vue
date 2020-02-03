@@ -5,16 +5,16 @@
       <v-spacer></v-spacer>
       <ul class="nav-list hidden-sm-and-down ml-5">
         <li class="nav-item">
-          <a href="#">Biography</a>
+          <a href="#biography">Biography</a>
         </li>
         <li class="nav-item">
-          <a href="#">Career</a>
+          <a href="#career">Career</a>
         </li>
         <li class="nav-item">
-          <a href="#">Achievement</a>
+          <a href="#achievements">Achievement</a>
         </li>
         <li class="nav-item">
-          <a href="#">Gallery</a>
+          <a href="#gallery">Gallery</a>
         </li>
       </ul>
       <v-dialog v-model="mobMenu" fullscreen hide-overlay transition="dialog-bottom-transition">
