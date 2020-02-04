@@ -25,10 +25,13 @@
               </p>
             </div>
             <div class="learn-more-btn">
-              <v-btn text medium color="primary">
-                Learn more
-                <v-icon color="primary">mdi-plus</v-icon>
-              </v-btn>
+              <v-btn
+                text
+                medium
+                color="primary"
+                href="https://en.wikipedia.org/wiki/Kobe"
+                target="_blank"
+              >Learn more</v-btn>
             </div>
           </div>
         </v-col>
