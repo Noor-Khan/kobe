@@ -41,7 +41,6 @@ export default {};
   background-image: url("../../assets/images/kobe.png");
   background-position: right bottom;
   background-size: 65%;
-  height: 90vh;
   .intro-right {
     position: relative;
     padding-top: 3rem;

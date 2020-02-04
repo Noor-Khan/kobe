@@ -57,6 +57,72 @@
   }
 }
 
+@media(max-width: 580px) {
+  h2 {
+    font-size: 42px !important;
+  }
+
+  h3 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #header {
+    .v-toolbar {
+      margin: 0 1rem !important;
+    }
+
+  }
+
+  #intro {
+    background-size: contain !important;
+    padding-top: 20px !important;
+    height: 100vh !important;
+
+    .signature {
+      img {
+        width: 170px !important;
+      }
+    }
+  }
+
+  #biography {
+    .horizontal-info:after {
+      left: 14.7rem !important;
+    }
+  }
+
+  #career {
+    .horizontal-info:after {
+      left: 6.1rem !important;
+    }
+  }
+
+  #achievements {
+    .horizontal-info:after {
+      left: 12.7rem !important;
+    }
+
+    .awards {
+      ul {
+        li {
+          font-size: 16px !important;
+          padding-left: 1rem !important;
+        }
+      }
+    }
+  }
+
+  #gallery {
+    .horizontal-info:after {
+      left: 7.1rem !important;
+    }
+  }
+}
+
 @media(max-width: 959px) {
   #header {
     .v-toolbar {
@@ -64,6 +130,12 @@
         padding: 8px 0 !important;
       }
     }
+  }
+}
+
+@media(min-width: 1025px) {
+  #intro {
+    height: 90vh;
   }
 }
 
