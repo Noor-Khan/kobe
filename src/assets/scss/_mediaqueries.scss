@@ -90,6 +90,10 @@
   }
 
   #biography {
+    .row {
+      flex-direction: column-reverse;
+    }
+
     .horizontal-info:after {
       left: 14.7rem !important;
     }

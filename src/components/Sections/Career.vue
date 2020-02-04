@@ -3,7 +3,9 @@
     <v-container>
       <v-row>
         <v-col cols="12" md="6">
-          <img src="../../assets/images/career.png" alt class="img-fluid" />
+          <div class="career-img">
+            <img src="../../assets/images/career.png" alt class="img-fluid" />
+          </div>
         </v-col>
         <v-col cols="12" md="6">
           <div class="career-right text-left">
@@ -20,7 +22,7 @@
               <p>
                 Bryant entered the
                 <a href="#">National Basketball Association</a>
- directly from high school, and played his entire 20-season professional career in the league with the Los Angeles Lakers.
+                directly from high school, and played his entire 20-season professional career in the league with the Los Angeles Lakers.
               </p>
             </div>
           </div>
@@ -252,6 +254,11 @@ export default {
 #career {
   padding: 50px 0;
   background-color: #fbfbfb;
+  .career-img {
+    img {
+      border-bottom: 5px solid #efefef;
+    }
+  }
   .career-right {
     .horizontal-info {
       &::after {
