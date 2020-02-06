@@ -5,7 +5,7 @@
         <v-col cols="12" md="12">
           <p>
             &copy; Copyright 2020
-            <a href="#">Kube</a>. All Rights Reserved
+            <a href="#">Kobe</a>. All Rights Reserved
           </p>
         </v-col>
       </v-row>
