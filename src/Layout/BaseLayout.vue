@@ -15,11 +15,12 @@ import Footer from "../components/Sections/Footer";
 export default {
   components: {
     Navbar,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 <style lang="scss" scoped>
+// base layout
 .base-layout {
   position: relative;
 }
